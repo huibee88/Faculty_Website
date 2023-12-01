@@ -1,0 +1,418 @@
+
+   
+   <!-- login form --->
+	<div id="id01" class="modal">
+		<div style="display: inline;">
+			<div id="close-form" onclick="document.getElementById('id01').style.display='none'" class="fas fa-times"></div>
+			
+			<div width="60%" class="textcenter">
+				<span class="btn active login-btn">Login</span>
+				<span class="btn register-btn">Register</span>
+			</div>
+		</div>
+		
+		<form class="login-form active" action="">
+			<h3 class="textcenter">LOGIN FORM</h3>
+			<div class="imglogincontainer">
+				<i class="fas fa-user-graduate" style="font-size:2rem; color:#eb2b63"></i>
+			</div>
+			
+			<div class="container">
+				<label for="username"><b>Username</b></label>
+				<input type="text" placeholder="Enter your username" name="username" required>
+				<label for="psw"><b>Password</b></label>
+				<input type="password" placeholder="Enter your password" name="password" required>
+				
+				<input type="submit" value="Login" class="btn btn1">
+				<br>
+				<label>
+					<input type="checkbox" checked="checked" name="remember"> Remember Me
+				</label>
+			</div>
+			
+			<div class="container containerstyle">
+				<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn" style="margin-left:3%"> Cancel </button>
+				<span class="psw"> <a href="#"> Forgot Password? </a></span>
+			</div>
+		</form>
+		
+		<form class="register-form" action="">
+			<h3 class="textcenter">REGISTER FORM</h3>
+			<div class="imglogincontainer">
+				<i class="fas fa-user-graduate" style="font-size:2rem; color:#eb2b63"></i>
+			</div>
+			
+			<div class="container">
+				<label for="username"><b>Username</b></label>
+				<input type="text" placeholder="Enter your username" name="username" required>
+				<label for="psw"><b>Password</b></label>
+				<input type="password" placeholder="Enter your password" name="password" required>
+				<label for="psw"><b>Reenter Password</b></label>
+				<input type="password" placeholder="Confirm your password" name="password" required>
+				
+				
+			</div>
+			
+			<div class="container textcenter containerstyle">
+				<span><input type="submit" value="Register" class="btn2"></span>
+				<span><button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn" style="margin-left:25%"> Cancel </button></span>
+			</div>
+		</form>
+	</div>
+	
+	<!-- Background Section --->
+	<section class="bg-section set-bg" data-setbg="img/bg.png">
+		<div class="container h-100">
+			<div class="bg-content text-white">
+				<div class="bg">
+					<h2>WE University</h2>
+					<p>Get more information here. Enjoy your study!</p>
+					<a href="#" class="site-btn"> Enroll Now</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Courses Section --->
+	<section  class="courses-section spad">
+		<h2 class="cs-title">Major Courses</h2>
+		
+		<div class="cs-container">
+			<div class="row">
+				<div class="col-lg-2 box-container feature-item">
+					<div class="ft-icon">
+						<i class="fas fa-laptop"></i>
+					</div>
+					
+					<h4>Computer Science</h4>
+					<p> Learn how to develop a website.</p>
+				</div>
+				
+				<div class="col-lg-2 box-container feature-item">
+					<div class="ft-icon">
+						<i class="fas fa-vial"></i>
+					</div>
+					
+					<h4>Chemical & Biology</h4>
+					<p>Learn how to develop professional skills.</p>
+				</div>
+				
+				<div class="col-lg-2 box-container feature-item">
+					<div class="ft-icon">
+						<i class="fas fa-chalkboard-teacher"></i>
+					</div>
+					
+					<h4>Teaching</h4>
+					<p> Learn how to teach.</p>
+				</div>
+				
+				<div class="col-lg-2 box-container feature-item">
+					<div class="ft-icon">
+						<i class="fas fa-calculator"></i>
+					</div>
+					
+					<h4>Mathematics</h4>
+					<p> Learn how to calculate.</p>
+				</div>
+				
+				<div class="col-lg-2 box-container feature-item">
+					<div class="ft-icon">
+						<i class="fas fa-clinic-medical"></i>
+					</div>
+					
+					<h4>Doctor</h4>
+					<p> Learn how to develop professional skills.</p>
+				</div>
+				
+				<div class="col-lg-2 box-container feature-item">
+					<div class="ft-icon">
+						<i class="fas fa-mail-bulk"></i>
+					</div>
+					
+					<h4>Marketing</h4>
+					<p> Learn how to develop professional skills.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<!-- Syllabus Search Section --->
+	<section class="search-section spad">
+		<div class="container">
+			<div class="section-title st-white">
+				<img src="./img/logo.png" alt="logo" style="max-width: 100px">
+				<p>The best out there</p>
+				<h2>See our courses</h2>
+			</div>
+			
+			<div class="search-form-wrap">
+				<form class="syllabus-search-form">
+					<input type="text" placeholder="Enter your course's name">
+					<button class="site-btn">Search</button>
+				</form>
+				
+				<p>Search other topics that cover under this course, e.g. Chemical & Biology, Computer Science, Doctor, etc.</p>
+			</div>
+		</div>
+	</section>
+	
+	<!-- Teacher Section --->
+	<section class="teacher-section spad">
+		<h2 class="cs-title">Top Teachers</h2>
+
+		<div class="t-container">
+			<div class="t-row row">
+				<div class="col-lg-4 col-md-6 slider">
+					<div class="image">
+						<img src="img/t1.jpg" alt="not teacher">
+						
+						<div class="content">
+							<a href="#" class="fab fa-facebook-f"></a>
+							<a href="#" class="fab fa-twitter"></a>
+							<a href="#" class="fab fa-instagram"></a>
+							<a href="#" class="fab fa-linkedin"></a>
+						</div>
+					</div>
+					
+					<div class="content1">
+						<h4>Teacher 1</h4>
+					</div>
+				</div>
+				
+				<div class="col-lg-4 col-md-6 slider">
+					<div class="image">
+						<img src="img/t2.jpg" alt="not teacher">
+						
+						<div class="content">
+							<a href="#" class="fab fa-facebook-f"></a>
+							<a href="#" class="fab fa-twitter"></a>
+							<a href="#" class="fab fa-instagram"></a>
+							<a href="#" class="fab fa-linkedin"></a>
+						</div>
+					</div>
+					
+					<div class="content1">
+						<h4>Teacher 2</h4>
+					</div>
+				</div>
+				
+				<div class="col-lg-4 col-md-6 slider">
+					<div class="image">
+						<img src="img/t3.jpg" alt="not teacher">
+						
+						<div class="content">
+							<a href="#" class="fab fa-facebook-f"></a>
+							<a href="#" class="fab fa-twitter"></a>
+							<a href="#" class="fab fa-instagram"></a>
+							<a href="#" class="fab fa-linkedin"></a>
+						</div>
+					</div>
+					
+					<div class="content1">
+						<h4>Teacher 3</h4>
+					</div>
+				</div>
+				
+				<div class="col-lg-4 col-md-6 slider">
+					<div class="image">
+						<img src="img/t4.jpg" alt="not teacher">
+						
+						<div class="content">
+							<a href="#" class="fab fa-facebook-f"></a>
+							<a href="#" class="fab fa-twitter"></a>
+							<a href="#" class="fab fa-instagram"></a>
+							<a href="#" class="fab fa-linkedin"></a>
+						</div>
+					</div>
+					
+					<div class="content1">
+						<h4>Teacher 4</h4>
+					</div>
+				</div>
+				
+				<div class="col-lg-4 col-md-6 slider">
+					<div class="image">
+						<img src="img/t5.jpg" alt="not teacher">
+						
+						<div class="content">
+							<a href="#" class="fab fa-facebook-f"></a>
+							<a href="#" class="fab fa-twitter"></a>
+							<a href="#" class="fab fa-instagram"></a>
+							<a href="#" class="fab fa-linkedin"></a>
+						</div>
+					</div>
+					<div class="content1">
+						<h4>Teacher 5</h4>
+					</div>
+				</div>
+				
+				<div class="col-lg-4 col-md-6 slider">
+					<div class="image">
+						<img src="img/t6.jpg" alt="not teacher">
+						
+						<div class="content">
+							<a href="#" class="fab fa-facebook-f"></a>
+							<a href="#" class="fab fa-twitter"></a>
+							<a href="#" class="fab fa-instagram"></a>
+							<a href="#" class="fab fa-linkedin"></a>
+						</div>
+					</div>
+					<div class="content1">
+						<h4>Teacher 6</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<!-- Skill & Testimonials Section --->
+	<section class="spad">
+		<div class="container">
+			<div class="row">
+				<!-- Skills Rating --->
+				<div class="col-lg-6">
+					<div class="single-progress-item">
+						<p>Computer Science</p>
+						<div class="progress-bar-style" data-progress="98" data-bgcolor="#87c4f2"></div>
+					</div>
+					
+					<div class="single-progress-item">
+						<p>Chemical & Biology</p>
+						<div class="progress-bar-style" data-progress="76" data-bgcolor="#5eaff2"></div>
+					</div>
+					
+					<div class="single-progress-item">
+						<p>Teaching</p>
+						<div class="progress-bar-style" data-progress="80" data-bgcolor="#fcabd8"></div>
+					</div>
+					
+					<div class="single-progress-item">
+						<p>Mathematics</p>
+						<div class="progress-bar-style" data-progress="90" data-bgcolor="#9381ff"></div>
+					</div>
+					
+					<div class="single-progress-item">
+						<p>Doctor</p>
+						<div class="progress-bar-style" data-progress="50" data-bgcolor="#ffe799"></div>
+					</div>
+					
+					<div class="single-progress-item">
+						<p>Marketing</p>
+						<div class="progress-bar-style" data-progress="40" data-bgcolor="#f877b1"></div>
+					</div>
+				</div>
+				
+				<!-- Facts & Figures Section --->
+				<div class="ff-section">
+					<div>
+						<h2 class="ff-title">FACTS AND FIGURES</h2>
+						<p>* Latest edit of MAY 2022 *</p>
+					</div>
+					<div class="count-container">
+						<div class="countff-container">
+							<div class="ff-container">
+								<h3 class="count">8866</h3>
+							</div>
+							<h6>Postgraduate Students</h6>
+						</div>
+						
+						<div class="countff-container">
+							<div class="ff-container">
+								<h3 class="count">23028</h3>
+							</div>
+							<h6>Undergraduate Students</h6>
+						</div>
+						
+						<div class="countff-container">
+							<div class="ff-container">
+								<h3 class="count">3124</h3>
+							</div>
+							<h6>International Students</h6>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div style="margin-bottom: 50px;"></div>
+	
+	<!-- Footer Top Section --->
+	<section class="footer-top-section text-white spad">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="footer-widget about-widget">
+						<img src="./img/logo.png" alt="logo" style="max-width: 200px">
+						<p>Jalan UMS, 88400 Kota Kinabalu, Sabah , Malaysia. Tel : (+6088) 320000 / 320474 </p>
+						<div class="social">
+							<a href="#" class="fab fa-facebook-f"></a>
+							<a href="#" class="fab fa-twitter"></a>
+							<a href="#" class="fab fa-instagram"></a>
+							<a href="#" class="fab fa-linkedin"></a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-4 col-md-6">
+					<div class="footer-widget">
+						<h4 class="fw-title">Useful Links</h4>
+						<div class="row">
+							<div class="col-sm-6">
+								<ul>
+									<li><a href="">Computer Science</a></li>
+									<li><a href="">Chemical & Biology</a></li>
+									<li><a href="">Teaching</a></li>
+									<li><a href="">Mathematics</a></li>
+									<li><a href="">Doctor</a></li>
+									<li><a href="">Marketing</a></li>
+								</ul>
+							</div>
+							
+							<div class="col-sm-6">
+								<ul>
+									<li><a href="">Mathematics</a></li>
+									<li><a href="">Chemical & Biology</a></li>
+									<li><a href="">Computer Science</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-4 col-md-6">
+					<div class="footer-widget">
+						<h4 class="fw-title">Quick Links</h4>
+						<div class="fw-latest-post-widget">
+							<div class="lp-item">
+								<i class="fa fa-home"></i>
+								<a href="./index.html">Home </a>
+							</div>
+							
+							<div class="lp-item">
+								<i class="fas fa-star"></i>
+								<a href="./about.html">About</a>
+							</div>
+							
+							<div class="lp-item">
+								<i class="fas fa-graduation-cap"></i>
+								<a href="./faculty.html">Faculty</a>
+							</div>
+							
+							<div class="lp-item">
+								<i class="fas fa-book-open"></i>
+								<a href="./courses.html">Courses </a>
+							</div>
+							
+							<div class="lp-item">
+								<i class="fas fa-phone-alt"></i>
+								<a href="./contact.html">Contact Us</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	
